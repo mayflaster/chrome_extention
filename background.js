@@ -26,7 +26,7 @@ chrome.runtime.onMessage.addListener(function(message, sender, senderResponse){
 });
 */
 
-
+/*
 chrome.runtime.onMessage.addListener(function(message, sender, senderResponse){
     const url='http://localhost:8000/server/';
   if(message.msg === "image") {
@@ -49,5 +49,23 @@ chrome.runtime.onMessage.addListener(function(message, sender, senderResponse){
      // return true;  // Will respond asynchronously.
  // }
 //});
+
+
+chrome.runtime.onMessage.addListener(function(message, sender, senderResponse){
+    if(message.msg === "image"){
+        fetch('http://localhost:8000/server/', {
+            method: "GET",
+            headers: {"Content-type": "application/json;charset=UTF-8"}
+        })
+            .then(response => response.text())
+            .then(data => {
+                let dataObj = JSON.parse(data);
+                senderResponse({data: dataObj, index: message.index});
+            })
+            .catch(error => console.log("error", error))
+        return true;  // Will respond asynchronously.
+    }
+});
+
 
 
