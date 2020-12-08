@@ -54,8 +54,14 @@ chrome.runtime.onMessage.addListener(function(message, sender, senderResponse){
 chrome.runtime.onMessage.addListener(function(message, sender, senderResponse){
     if(message.msg === "image"){
         fetch('http://localhost:8000/server/', {
-            method: "GET",
-            headers: {"Content-type": "application/json;charset=UTF-8"}
+            method: "POST",
+            body:message.pic,
+            //body: chrome.runtime.getURL(message.pic),
+           // body: 'C:\\Users\\mayfl\\WebstormProjects\\chrome_extention\\images\\Animal-jokes-funny-sheep.jpg',
+            headers: {
+                'content-type': 'text/plain'
+            }
+
         })
             .then(response => response.text())
             .then(data => {

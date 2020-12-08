@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40aa717c-bd71-41c6-ab40-67ce0465fd81" name="Default Changelist" comment="fetch" />
+    <list default="true" id="40aa717c-bd71-41c6-ab40-67ce0465fd81" name="Default Changelist" comment="back to last version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contentScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/contentScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +42,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606734790453</updated>
-      <workItem from="1606734791869" duration="8349000" />
+      <workItem from="1606734791869" duration="9007000" />
+      <workItem from="1607432683114" duration="7292000" />
     </task>
     <task id="LOCAL-00001" summary="upload files">
       <created>1606735274989</created>
@@ -53,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606761671701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="back to last version">
+      <created>1606761995825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606761995825</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,7 +75,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upload files" />
     <MESSAGE value="fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetch" />
+    <MESSAGE value="back to last version" />
+    <option name="LAST_COMMIT_MESSAGE" value="back to last version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="239" key="Github.ShareDialog" timestamp="1606735116160">
@@ -73,10 +87,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="416" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606735148772" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606761915988">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606762001405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606761915988" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606762001405" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606735247557">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
